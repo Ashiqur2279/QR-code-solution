@@ -28,8 +28,8 @@ I have added the screenshot of the result. You can check it from here.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/Ashiqur2279/QR-code-solution.git)
+- Live Site URL: [live site](https://unique-queijadas-bdda50.netlify.app/)
 
 ## My process
 At first I ready the HTML file for the QR code. Then create a CSS file and then give the relevant style for make the design properly. Although as a beginer it was a nice experience for me. Really i enjoy it. I excited for get the new challenge.
