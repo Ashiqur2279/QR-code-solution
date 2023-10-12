@@ -1,0 +1,62 @@
+#qrCodeContainer {
+  background-color: hsl(212, 45%, 89%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#contentBody {
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 15px;
+  height: 400px;
+  width: 260px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+#content div{
+    margin-top: 10px;
+}
+#content img {
+  height: 230px;
+  width: 230px;
+  border-radius: 15px;
+}
+#content h3{
+    font-family: 'Outfit', sans-serif;
+    padding: 0 5px;
+}
+#content p{
+    font-family: 'Outfit', sans-serif;
+    padding: 0 5px;
+    color: hsl(220, 15%, 55%);
+}
+
+/* responsive */
+/* mobile 375px */
+@media screen and (max-width: 375px) {
+    #contentBody {
+      width: 75%; 
+      height: auto;
+    }
+  
+    #content img {
+      max-width: 100%; 
+      height: auto;
+    }
+}
+
+/*  Desktop 1440px */
+@media screen and (min-width: 1025px) {
+    #qrCodeContainer {
+        height: 100vh;
+        width: 1440px;
+    }
+    #content img {
+      max-width: 100%; 
+      height: auto;
+    }
+}
